@@ -1,0 +1,21 @@
+name: PersonalChests
+version: ${project.version}
+main: com.metox.chest.PersonalChests
+website: https://discord.gg/forges
+api-version: 1.13
+author: chizzar-dev
+description: Herkese ozel sandiklar. Coslant.
+
+commands:
+  chest:
+    description: Kendi sandiklarini ac
+    usage: /chest [sayfa] | /chest admin <oyuncu> [sayfa]
+    aliases: [sandik, pv, kasa]
+
+permissions:
+  chest.use:
+    description: Sandik komutunu kullanabilir
+    default: true
+  chest.admin:
+    description: Baskalarinin sandiklarini gorebilir ve duzenleyebilir
+    default: op
