@@ -1,7 +1,6 @@
 name: PersonalChests
 version: ${project.version}
 main: com.metox.chest.PersonalChests
-website: https://discord.gg/forges
 api-version: 1.13
 author: chizzar-dev
 description: Herkese ozel sandiklar. Coslant.
